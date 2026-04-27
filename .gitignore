@@ -1,0 +1,30 @@
+# OAK PROTOCOL · .gitignore
+# Canary: SEQUOIA14APRIL
+
+# Environment and secrets — never committed
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+
+# Supabase local
+.supabase/
+supabase/.temp/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Deno cache
+.deno/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
