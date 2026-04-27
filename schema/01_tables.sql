@@ -130,7 +130,7 @@ CREATE TABLE IF NOT EXISTS forest_master (
   calendar              TEXT,
   oak_part              TEXT CHECK (oak_part IN (
                           'Roots','Trunk','Branch','All Forest')),
-  area                  TEXT[],
+  area                  TEXT,
   research_areas        TEXT[],
   ip_doi_asset          TEXT[],
   amount                NUMERIC,
